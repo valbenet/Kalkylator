@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100dvw;
+    height: auto;
+    place-content: center;
+    align-items: center;
+}
+
+main{
+    width: 60dvw;
+    height: 70dvh;
+    grid-template-areas: 
+    "aa aa bb bb cc cc dd dd ee ee"
+    "aa aa bb bb cc cc dd dd ee ee"
+    "ff ff gg gg hh hh ii ii jj jj"
+    "ff ff gg gg hh hh ii ii jj jj"
+    "kk kk ll ll mm mm nn nn oo oo"
+    "kk kk ll ll mm mm nn nn oo oo"
+    "pp pp qq qq rr rr ss ss tt tt"
+    "pp pp qq qq rr rr ss ss tt tt"
+    "vv vv vv vv vv vv vv vv vv vv"
+    "vv vv vv vv vv vv vv vv vv vv";
+    place-content: center;
+    align-items: center;
+    background: hsl(174 21.7% 18%);
+}
+
+button{
+    width: 60px;
+    height: 60px;
+}
+
+.problem{
+    width: 60px;
+    height: 40px;
+}
+
+.number1{
+    grid-area: ll;
+}
+
+.number2{
+    grid-area: mm;
+}
+
+.number3{
+    grid-area: nn;
+}
+
+.number4{
+    grid-area: gg;
+}
+
+.number5{
+    grid-area: hh;
+}
+
+.number6{
+    grid-area: ii;
+}
+
+.number7{
+    grid-area: bb;
+}
+
+.number8{
+    grid-area: cc;
+}
+
+.number9{
+    grid-area: dd;
+}
+
+.number0{
+    grid-area: rr;
+}
+
+.plus{
+    grid-area: tt;
+}
+
+.minus{
+    grid-area: oo;
+}
+
+.times{
+    grid-area: jj;
+}
+
+.divide{
+    grid-area: ee;
+}
+
+.equal{
+    grid-area: vv;
+}
+
+.comma{
+    grid-area: qq;
+}
+
+.swapMinus{
+    grid-area: ss;
+}
+
+.pi{
+    grid-area: kk;
+}
+
+.parenthesis{
+    grid-area: ff;
+}
+
+.raisedTo{
+    grid-area: aa;
+}
+
+.root{
+    grid-area: pp;
+}
+
